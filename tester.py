@@ -1,9 +1,4 @@
-import sys
-sys.path.append(".")
-
 import geo.utils as utils
-
-print(dir(utils))
 
 a, b = 3, 4
 c = utils.pythagoras(a, b)
